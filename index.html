@@ -60,11 +60,14 @@
     var ideas = ["Tweet Scraper", "Virtual Vending Machine", "Music Player App", "Stopwatch App", "Sudoku Solver",
     "Password Manager", "Blog", "Text Adventure Game", "Snake", "Platformer", "RSS Feed Scraper", "Note Taking App",
     "Employee Management System", "Drinking Game", "Todo List", "Contribute to an Open Source Project", "¯\_(ツ)_/¯",
-    "Survey System"];
+    "Survey System", "Individual Workout Tracker or Full Fitness Tracker", "A Medical Reminder System", "A Package Tracking Aggregation App",
+    "A Web Resume", "Recreate an App You've Built in Another Language", "A Booking System", "Implement your Own Version of a Standard Library Package/Module",
+    "Make a Program Async/Multiprocessed", "Implement a Datastructure you've Never Used", "Make a Program with 0 Googling", "Remake a Retro Game", "Sleep Tracker",
+    "Create an Animation Programatically", "Generative Art", "Use the 3d Version of a Graphics Library", "Data Visualization"];
 
     value = Math.floor(Math.random() * ideas.length); // Random number from 0 - length of ideas array
 
     console.log(value);
 
-    text.innerText = ideas[value];
+    text.innerText = ideas[value]; // Replace the inner text of the idea heading 1 tag to the selection
 </script>
